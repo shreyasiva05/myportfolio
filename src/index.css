@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html, body, #root { height: 100%; }
+body { @apply bg-white text-gray-900 antialiased; }
+
+
+/* Smooth scroll */
+html { scroll-behavior: smooth; }
+
+
+/* Simple Apple-like typography */
+:root {
+    --section-pad: 6rem;
+}
+
+h1, h2, h3 { font-weight: 600; }

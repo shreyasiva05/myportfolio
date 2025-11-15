@@ -13,29 +13,18 @@ export default function Navbar() {
 
         {/* LEFT — LOGO */}
         <a href="#home" className="text-white text-xl font-semibold tracking-tight">
-          Shreya.S
+          Shreya Sivakumar
         </a>
 
         {/* RIGHT — NAV LINKS */}
         <div className="hidden md:flex items-center gap-8 text-gray-300 text-sm">
-
           <a className="hover:text-white transition" href="#home">Home</a>
-
           <a className="hover:text-white transition" href="#projects">Projects</a>
-
-          <a className="hover:text-white transition" href="/resume.pdf" target="_blank">
-            Resume
-          </a>
-
-          <a className="hover:text-white transition" href="mailto:shreyasivakumar2005@gmail.com">
-            Email
-          </a>
-
+          <a className="hover:text-white transition" href="/resume.pdf" target="_blank">Resume</a>
+          <a className="hover:text-white transition" href="mailto:shreyasivakumar2005@gmail.com">Email</a>
           <a className="hover:text-white transition" href="#contact">Contact</a>
         </div>
 
-        {/* MOBILE MENU ICON (if needed later) */}
-        <div className="md:hidden text-gray-300">☰</div>
       </div>
     </motion.nav>
   );
